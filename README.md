@@ -6,4 +6,4 @@ Shim repository for [Backbone.Wreqr](http://github.com/marionettejs/backbone.wre
 Package Managers
 ----------------
 
-Coming soon...
+* [Composer](http://packagist.org/packages/craigmccoy/backbone.wreqr): `craigmccoy/backbone.wreqr`
