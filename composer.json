@@ -1,0 +1,36 @@
+{
+	"name": "craigmccoy/backbone.wreqr",
+  	"description": "A simple infrastructure based on messaging patterns and service bus implementations for decoupling Backbone and Backbone.Marionette applications.",
+  	"keywords": ["backbone", "plugin", "computed", "field", "model", "client", "browser"],
+  	"type": "component",
+	"homepage": "https://github.com/marionettejs/backbone.wreqr",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/marionettejs/backbone.wreqr/issues"
+	},
+	"authors": [
+		{
+			"name": "Derick Bailey",
+			"email": "marionettejs@gmail.com"
+		}
+	],
+	"require": {
+		"robloach/component-installer": "*",
+		"components/backbone": "1.1.*"
+	},
+	"extra": {
+		"component": {
+			"scripts": [
+				"backbone.wreqr.js"
+			],
+			"files": [
+				"backbone.wreqr.min.js",
+				"backbone.wreqr.map"
+			],
+			"shim": {
+				"deps": ["backbone"],
+				"exports": "Backbone.Wreqr"
+			}
+		}
+	}
+}
